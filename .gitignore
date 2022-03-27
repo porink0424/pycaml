@@ -1,0 +1,35 @@
+# makeによって生成されるファイル
+*.cmi
+*.cmo
+*.o
+lexer.*
+!lexer.mll
+parser.*
+!parser.mly
+min-caml
+._bcdi/
+._d/
+
+# pycache
+py/__pycache__
+
+# OS依存
+.DS_Store
+
+# 中間ファイル
+intermediate/*.txt
+intermediate/*.ml
+
+# アセンブリファイル
+*.s
+
+# 設定ファイル
+.vscode/
+
+# intermediateフォルダ
+intermediate/*
+!.gitkeep
+
+# asmフォルダ
+asm/*
+!.gitkeep
